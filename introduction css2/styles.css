@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+.one{
+    background-color: aquamarine;
+    
+}
+
+.one ::first-line{
+    color: white;
+    font-size: 50px;
+
+}
+
+.one ::first-letter{
+    color: blue;
+    font-size: 200px;
+
+}
+
+footer{
+    text-align: center;
+    margin-top: 150px;
+    background-color: aliceblue;
+    font-size: 82px;
+    /* background-size: 15px; */
+    /* width: 200px; */
+    
+}
+footer :hover{
+    color: red;
+}

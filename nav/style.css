@@ -1,0 +1,29 @@
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(155, 155, 222);
+    padding: 30px;
+    border-radius: 30px;
+    font-size: 35px;
+    /* background: linear-gradient(to left,blue, red, gold); */
+}
+
+ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    /* font-size: x-large; */
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: black;
+}
+nav:hover, .list ul li a:hover{
+    background-color: grey;
+    color: rgb(222, 134, 134);
+}
+nav:hover{
+    background: linear-gradient(to left,blue, green,gold);
+}

@@ -1,0 +1,87 @@
+body{
+    background-color: beige;
+    margin:0;
+}
+nav{
+    background-color: aquamarine;
+    font-size: xx-large;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    /* color: brown; */
+}
+.header{
+    font-style: italic;
+    font-size: 100px;
+}
+
+.ul{
+    display: flex;
+    gap: 50px;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.ul :hover{
+    color: aliceblue;
+}
+.ul li a{
+    color: black;    
+    text-decoration: none;
+}
+
+
+
+.big{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    padding-top: 10px;
+  
+  }
+  .a{
+    width: 80%;
+    height: 100%;
+    /* background-image: url(./elon\ musk.jpeg); */
+  }
+
+  .b{
+    width: 80%;
+    height: 120%;
+    /* background-image: url(./Tinubu\ 7.webp); */
+  }
+
+  .imgclass1{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+.imgclass2{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+
+
+.imgclass3{
+    width: 30%;
+    object-fit: cover;
+    height: 200%;
+}
+
+.imgclass4{
+    width: 30%;
+    object-fit: cover;
+    height: 200%;
+}
+
+.a2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 20px;
+    padding-top: 10px;
+}

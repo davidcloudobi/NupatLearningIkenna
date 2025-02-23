@@ -1,0 +1,26 @@
+  body {background-color: grey;}
+     h1 {
+            color: aquamarine;
+        }
+        div ::first-line {
+            
+            color: blue;
+            /* background-color: bisque; */
+        }
+        section ::first-letter{
+            color: brown;
+            font-size: 80px;
+
+            
+        }
+
+        article h3 {
+            color: blue;
+            background-color: beige;
+            text-align: center;
+            padding: 25px;
+        }
+
+        article:hover h3{
+            background-color: brown;
+        }

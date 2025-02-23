@@ -1,0 +1,30 @@
+body { 
+    background-color: rgb(237, 227, 206)
+
+     }
+
+article ::first-letter{
+                       font-size: 50px;
+                       color: brown;
+        }
+
+        div {
+            background-color: yellow;
+        }
+
+        div ::first-line{
+            color: fuchsia;
+            background-color: azure;
+        }
+
+        footer {
+            text-align: center;
+            font-size: xx-large;
+            
+            
+
+        }
+        footer :hover{
+            color: gray;
+        }
+

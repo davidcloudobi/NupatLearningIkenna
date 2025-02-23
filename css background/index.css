@@ -1,0 +1,14 @@
+body{
+    background-image: url('jeff\ bezos.webp');
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed ;
+
+}
+header{
+    
+    /* height: 100vh; */
+    background-repeat: no-repeat;
+}

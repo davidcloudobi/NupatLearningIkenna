@@ -1,0 +1,37 @@
+body{
+    background-color: darkgrey;
+}
+div{
+    background-color: antiquewhite;
+}
+div ::first-line{
+    color: rgb(81, 211, 168);
+    background-color: brown;
+}
+div ::first-letter{
+    color: black;
+    font-size: 50px;
+}
+section{
+    background-color:antiquewhite ;
+}
+section ::first-letter{
+    color: aqua;
+    font-size: 57px;
+    font-style: italic;
+}
+
+footer{
+    text-align: center;
+    font-size: xx-large;
+    font-style: italic;
+}
+
+footer a {
+    color: red;
+}
+
+footer :hover{
+    color: blue;
+    
+}

@@ -1,0 +1,109 @@
+body{
+    background: linear-gradient(to left, yellow, green, blue);
+    margin:0;
+}
+nav{
+    background-color: aquamarine;
+    font-size: xx-large;
+    margin:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    margin-top: 1em;
+    /* color: brown; */
+}
+.header{
+    font-style: italic;
+    font-size: 100px;
+}
+
+.ul{
+    display: flex;
+    gap: 30px;
+    /* text-decoration: none; */
+    list-style-type: none;
+}
+.ul :hover{
+    color: aliceblue;
+}
+.ul li a{
+    color: black;    
+    text-decoration: none;
+}
+
+.big{
+    display: flex; 
+    justify-content: space-between;
+    height: 80vh;  
+}
+  
+
+
+.a2{
+    display: flex; 
+    justify-content: space-between;
+}
+
+
+.a{
+    width: 50%;
+    height: 1px;
+    /* background-image: url(./elon\ musk.jpeg); */
+  }
+
+  .b{
+    width: 90%;
+    height: 80vh;
+    /* background-image: url(./Tinubu\ 7.webp); */
+  }
+
+.imgclass1{
+    width: 100%;
+}
+
+.imgclass2{
+    width: 80%;
+    /* height: 1500px; */
+    padding-left: 10em;
+    height: 35.5em;
+}
+
+
+.imgclass3{
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+.imgclass4{
+    width: 250px;
+    height: 250px; ;
+    border-radius: 100%;
+
+}
+
+footer{
+    background-color: aliceblue;
+    margin : 9em;
+    padding: 40px;
+    margin-left: 14em;
+    max-width: 9vw;
+    margin-bottom: 5em;
+}
+
+footer:hover{
+    background-color: gold;
+
+}
+
+h2{
+    color: aqua;
+}
+
+h2:hover{
+    color: black;
+    /* text-shadow: 10px 10px 10px red; */
+}
