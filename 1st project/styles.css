@@ -1,0 +1,277 @@
+* {
+  margin: 0%;
+  padding: 0%;
+}
+
+.header {
+  background-image: url(./image-header.jpg);
+  background-repeat: no-repeat;
+  /* background-size: 100em; */
+  background-size: cover;
+  background-position: center;
+  background-attachment: scroll;
+  height: 120vh;
+}
+
+nav {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 33px;
+  padding-inline: 30px;
+}
+
+.sunny {
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 26px;
+  font-style: italic;
+  color: aliceblue;
+}
+
+.motto {
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: italic;
+  font-size: 75px;
+  font-weight: bolder;
+  margin-top: 70px;
+  /* justify-content: center; */
+  padding-left: 30%;
+  color: aliceblue;
+}
+.arrow {
+  margin-top: 10em;
+  align-items: center;
+  padding-inline: 46em;
+}
+
+.ul {
+  list-style-type: none;
+  display: flex;
+  gap: 25px;
+  font-weight: bold;
+  font-size: x-large;
+  font-style: oblique;
+  padding-right: 20px;
+  color: aliceblue;
+  cursor: arrow;
+}
+
+.ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.ul li:hover a {
+  color: black;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 45%;
+  /* font-weight: bold; */
+}
+.section1,
+.section2,
+.section3 {
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+}
+.transform,
+.standout {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: left;
+  width: 50%;
+}
+
+.transform h1,
+.transform p,
+.transform h2,
+.standout h1,
+.standout p,
+.standout h2,
+.section3 .apple,
+.section3 .lemon {
+  padding-left: 80px;
+}
+.section1 p {
+  width: 410px;
+  font-size: 18px;
+  color: gray;
+  line-height: 30px;
+}
+
+.egg {
+  width: 50%;
+  background-image: url("./image-transform.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+
+.section2 {
+  display: flex;
+  width: 100%;
+}
+
+.cup {
+  width: 50%;
+  background-image: url("./image-stand-out.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* height: 100vh; */
+}
+
+.section2 p {
+  width: 410px;
+  font-size: 18px;
+  color: gray;
+  line-height: 30px;
+}
+
+/* .section3 h1, .section3 p {
+  margin-top: 39px;
+  padding-inline: 20%;
+} */
+
+.section3 h1 {
+  padding-top: 50%;
+}
+
+.apple {
+  width: 50%;
+  background-image: url("./image-graphic-design.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: rgb(80, 121, 80);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+.apple p, .lemon p {
+  font-size: 18px;
+  line-height: 30px;
+  padding-inline: 100px;
+}
+
+
+.lemon {
+  width: 50%;
+  background-image: url("./image-photography.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: darkslategrey;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
+}
+
+
+.section4 {
+  width: 100%;
+  max-height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+}
+
+.top {
+  margin-top: 5%;
+  color: rgb(229, 219, 219);
+}
+
+.testimonials {
+  display: flex;
+  gap: 20px;
+  margin-top: 5%;
+}
+
+.emily,
+.thomas,
+.Jennie {
+  width: 32%;
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.pic {
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  font-weight: bold;
+  margin: 5%;
+  margin-bottom: 5px;
+}
+.text {
+  color: gray;
+  margin: 5%;
+}
+.title {
+  font-size: 14px;
+  color: grey;
+  margin-bottom: 10%;
+}
+
+.section5 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+}
+
+.section5 div {
+  width: 25%;
+}
+
+footer {
+  width: 100%;
+  height: 40vh;
+  background-color: rgb(144, 212, 197);
+  /* display: flex; */
+  flex-direction: column;
+  /* gap: 40%; */
+  align-items: center;
+  padding-top: 30px;
+
+}
+
+.head{
+  align-items: center;
+  padding-left: 45%;
+}
+
+.icons{
+  align-items: center;
+  display: flex;
+  gap: 5%;
+  /* margin: 20%; */
+  margin-left: 45%;
+  margin-top: 70px;
+
+}
+
+.link{
+align-items: center;
+text-align: center;
+list-style-type: none;
+display: flex;
+gap: 7%;
+justify-content: center;
+padding-top: 29px;
+}
